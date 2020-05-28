@@ -1,0 +1,22 @@
+<!Doctype html>
+<head>
+    <title>Hash Generator</title>
+    <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div style="text-align: center;">
+<form method="POST">
+    <u style="color:lightblue;"><h1 style="color:darkblue;font-style:oblique;">HASH GENERATOR</h1></u>
+        <textarea  placeholder="enter your plain text here which can be of any language" name="example" rows="15" cols="80" style="border:2px solid lightblue;">{%print(text)%}</textarea><br>
+    <h4>select hash function here:</h4>
+    <button type="submit" value="SHA-512" name="sha" style="text-align: center;color:white;height: 30px;width: 100px; background-color: black;margin-bottom: 10px;">SHA-512</button>
+    <button type="submit" value="SHA-256" name="sha" style="text-align: center;color:white;height: 30px;width: 100px; background-color: black;margin-bottom: 10px;">SHA-256</button>
+    <button type="submit" value="SHA-1"   name="sha" style="text-align: center;color:white;height: 30px;width: 100px; background-color: black;margin-bottom: 10px;">SHA-1</button>
+    <button type="submit" value="MD-5"    name="sha" style="text-align: center;color:white;height: 30px;width: 100px; background-color: black;margin-bottom: 10px;">MD-5</button>
+    <br>
+    <textarea rows="5" cols="80" style="border:2px solid lightblue;"placeholder="translated text displays here">{%print(t2)%}</textarea>
+</form>
+</div>
+</body>
+</html>
